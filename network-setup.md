@@ -19,5 +19,12 @@ End devices:
         PC-PT PC2 - 168.90.0.4
         PC-PT PC4 - 168.90.0.5
 
-    
+DHCP commands: 
+    ip dhcp pool FirstNetwork
+    network 168.90.0.0 255.255.0.0
+    default-router 168.90.0.1
+
+    ip dhcp pool SecondNetwork
+    network 210.3.14.0 255.255.255.0
+    default-router 210.3.14.1
 
